@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.7 on darwin)" generated="20210907 11:28:25.376" rpa="false" schemaversion="2">
+<suite id="s1" name="Case Random" source="/Users/lucasrd/Documents/vue/myapp/robot/case_random.robot">
+<test id="s1-t1" name="Random Test">
+<kw name="Random Test" library="resource">
+<var>${RANDOM}</var>
+<kw name="Random Number" library="ExampleRandom">
+<msg timestamp="20210907 11:28:25.970" level="INFO">----------------
+91
+----------------</msg>
+<status status="PASS" starttime="20210907 11:28:25.666" endtime="20210907 11:28:25.970"/>
+</kw>
+<msg timestamp="20210907 11:28:25.970" level="INFO">${RANDOM} = None</msg>
+<status status="PASS" starttime="20210907 11:28:25.665" endtime="20210907 11:28:25.970"/>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<arg>True</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" starttime="20210907 11:28:25.971" endtime="20210907 11:28:25.971"/>
+</kw>
+<status status="PASS" starttime="20210907 11:28:25.664" endtime="20210907 11:28:25.971"/>
+</test>
+<status status="PASS" starttime="20210907 11:28:25.378" endtime="20210907 11:28:25.972"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Case Random">Case Random</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
